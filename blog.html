@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kksihtk. Blog</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/darkTheme.css" id="themeLink">
+</head>
+<body>
+    <section id="site">
+        <section id="header">
+            <div class="logo">
+                <div class="logo_avatar">
+                    <img src="./images/avatar/kksihtk.png" alt="Avatar">
+                </div>
+
+                <div class="logo_span">
+                    <span>kksihtk</span>
+                </div>
+            </div>
+
+            <section id="nav">
+                <ul>
+                    <li><a href="./index.html">Main</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </section>
+
+            <section id="socities">
+                <a href="https://www.vk.com/kksihtk"><img src="./images/icons/vk-icon.png" alt="VKONTAKTE"></a>
+                <a href="https://t.me/kksihtk"><img src="./images/icons/telegram-icon.png" alt="TELEGRAM"></a>
+                <a href="https://github.com/kksihtk"><img src="./images/icons/github-icon.png" alt="GITHUB"></a>
+            </section>
+        </section>
+
+        <section id="main">
+            <section id="main_mainContent">
+                <div class="main_mainContent-heading">
+                    <h1>Blog spot right there!</h1>
+                </div>
+
+                <div class="main_mainContent-query">
+                        <input placeholder="Введите поисковый запрос" type="text" name="" id="queryInput">
+                        <button onclick="queryArticles()" class="queryBtn">Искать</button>
+                        <button onclick="queryCancel()" class="queryBtn">Назад</button>
+                </div>
+
+                <section id="blogSpot">
+                    <div class="blogSpot_article" id="art0">
+                            <div class="blogSpot_article-heading">
+                                <h3>Ошибка загркузки новостей, попробуйте ещё раз позже.</h3>
+                            </div>
+                        </div>
+                </section>
+            </section>
+
+            <section id="footer">
+                <div class="footer_copyright">
+                    <span>Ошибка загрузки страницы, попробуйте ещё раз позже</span>
+                </div>
+            </section>
+        </section>
+    </section>
+
+    <section id="cookieModal" style="display: none;">
+        <div class="cookieModal-mainContent">
+            <div class="cookieModal-mainContent-content">
+                <div class="cookieModal-mainContent-content_heading"><h3>Внимание!</h3></div>
+                <div class="cookieModal-mainContent-content_description"><p>Продолжая использование данного сайта, вы соглашаетесь на сбор и обработку ваших данных. А также потверждаете что ознокомились и согласны с условиями пользования</p></div>
+            </div>
+            <div class="cookieModal-mainContent-cookie">
+                <img src="./images/icons/cookie.png" alt="cookie">
+            </div>
+        </div>
+        <div class="cookieModal-buttons">
+            <a id="cookieModal-button_OK" onclick="document.getElementById('cookieModal').remove()">Окей</a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="cookieModal-button_NO">НЕТ, Я НЕ СОГЛАСЕН!</a>
+        </div>
+    </section>
+
+    <img class="CTBmoon" src="./images/icons/moon.png" alt="" id="changeThemeBtn" onclick="changeThemeToDark()">
+    <img class="CTBsun" src="./images/icons/sun.png" alt="" id="changeThemeBtn" onclick="changeThemeToLight()">
+    <img class="CTBsnow" src="./images/icons/snow.png" alt="" id="changeThemeBtn" onclick="generateSnowflakes(); animateSnowflakes(); let Canvas = document.getElementById('snowfall'); Canvas.style = 'display: ;'">
+    <img class="CTBsnowNone" src="./images/icons/snowNone.png" alt="" id="changeThemeBtn" onclick="let Canvas = document.getElementById('snowfall'); Canvas.style = 'display: none;'">
+
+    <script src="./scripts/initBlog.js"></script>
+</body>
+</html>
+

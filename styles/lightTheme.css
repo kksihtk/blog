@@ -1,0 +1,45 @@
+:root {
+    /* Colors */
+    --scroll-bar_bg-color: white;
+    --scroll-bar-thumb_bg-color: rgb(196, 196, 196);
+    --scroll-bar-thumb--hover_bg-color: rgb(173, 173, 173);
+
+    --body_bg-color: white;
+    --body_color: rgb(24, 24, 24); 
+    --a_color: #ffffff;
+    --a--hover_color: rgb(174, 174, 174);
+
+    --box-shadow_color: rgb(94, 94, 94);
+
+    --header_bg-color: rgb(60, 60, 60);
+    --logo_span: rgb(231, 231, 231);
+
+    --main_bg-color: rgb(219, 219, 219);
+    --main-mainContent-heading_bg-color: rgb(190, 190, 190);
+    --main-mainContent-paragraph_bg-color: rgb(190, 190, 190);
+
+    --main-mainContent-query_bg-color: rgb(190, 190, 190);
+    --main-mainContent-query-queryInput_bg-color: rgb(217, 217, 217);
+    --main-mainContent-query-queryInput_border-color: white;
+    --main-mainContent-query-queryInput--hover_bg-color: rgb(209, 209, 209);
+    --main-mainContent-query-queryInput_color: rgb(88, 88, 88);
+    --main-mainContent-query-queryInput--placeholder_color: rgb(110, 110, 110);
+    --queryBtn_bg-color: rgb(190, 190, 190);
+    --queryBtn_color: rgb(0, 0, 0);
+    --queryBtn_border-color: rgb(255, 255, 255);
+    --queryBtn--hover_bg-color: rgb(197, 197, 197);
+
+    --main-mainContent-gallery_bg-color: rgb(190, 190, 190);
+    --gallery-imgs-scrollbar_bg-color: rgb(190, 190, 190);
+    --gallery-imgs-scrollbar-thumb_bg-color: rgb(163, 163, 163);
+    --gallery-imgs-scrollbar-thumb--hover_bg-color: rgb(156, 156, 156);
+
+    --blogSpot_bg-color: rgb(190, 190, 190);
+    --blogSpot-article_bg-color: rgb(190, 190, 190);
+    --blogSpot-article-heading_bg-color: rgb(190, 190, 190);
+    --blogSpot-article-description_bg-color: rgb(190, 190, 190);
+
+    --footer_bg-color: rgb(177, 177, 177);
+
+    --modalSection_bg-color: rgba(0, 0, 0, 0.182);
+}
