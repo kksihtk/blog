@@ -24,6 +24,7 @@ function indexHTML() {
 
     script6.src = './scripts/utils/scrollButton.js';
     body.appendChild(script6);
+
 }
 
 indexHTML()
