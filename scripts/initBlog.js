@@ -5,21 +5,29 @@ function blogHTML() {
     let script3 = document.createElement('script');
     let script4 = document.createElement('script');
     let script5 = document.createElement('script');
+    let script6 = document.createElement('script');
+    let script7 = document.createElement('script');
 
-    script1.src = './scripts/utils/query.js';
+    script1.src = './scripts/utils/footer.js';
     body.appendChild(script1);
 
-    script2.src = './scripts/utils/footer.js';
+    script2.src = './scripts/utils/snowfall.js';
     body.appendChild(script2);
 
-    script3.src = './scripts/utils/snowfall.js';
+    script3.src = './scripts/utils/blogspot.js';
     body.appendChild(script3);
 
-    script4.src = './scripts/utils/blogspot.js';
+    script4.src = './scripts/utils/changeTheme.js';
     body.appendChild(script4);
 
-    script5.src = './scripts/utils/changeTheme.js';
+    script5.src = './scripts/utils/query.js';
     body.appendChild(script5);
+
+    script6.src = './scripts/utils/scrollButton.js';
+    body.appendChild(script6);
+
+    script7.src = './scripts/utils/contactUsButton.js';
+    body.appendChild(script7);
 }
 
 blogHTML()

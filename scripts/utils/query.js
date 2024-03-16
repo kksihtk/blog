@@ -11,10 +11,13 @@ function queryArticles() {
 
     for (i = 0; i < articles.length; i++) {
         article = articles[i];
-        heading = article.getElementByTagName('h3')[0].textContent.toLowerCase();
-        description = article.getElementByTagName('p')[0].textContent.toLowerCase();
+        heading = article.getElementsByTagName('h3')[0].textContent.toLowerCase();
+        description = article.getElementsByTagName('p')[0].textContent.toLowerCase();
 
-        if (heading.indexOf(filter) > -1 || description.indexOf(filter) > -1) {
+        console.log(filter)
+        console.log(heading.indexOf(filter))
+
+        if (heading.indexOf(filter, -1) != -1 || description.indexOf(filter, -1) != -1) {
             article.style.display = '';
             return;
         }

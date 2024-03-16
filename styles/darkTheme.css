@@ -42,4 +42,7 @@
     --footer_bg-color: rgb(37, 37, 37);
 
     --modalSection_bg-color: rgba(0, 0, 0, 0.182);
+
+    --otherButtons_bg-color: rgb(112, 112, 112);
+    --otherButtons_bg-color--hover: rgb(100, 100, 100);
 }

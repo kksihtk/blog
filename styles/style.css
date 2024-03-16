@@ -79,6 +79,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 1000;
 }
 
 /* Шапка>>Логотип */
@@ -483,7 +484,54 @@ ul {
     color: rgb(35, 35, 35);
 }
 
+#contactUs {
+    display: flex;
+    position: fixed;
+    background-color: var(--otherButtons_bg-color);
+    padding: 1%;
+    border-radius: 24px;
+    cursor: pointer;
+    right: 6%;
+    bottom: 5%;
+}
+
+#contactUs:hover {
+    background-color: var(--otherButtons_bg-color--hover);
+    transform: scale(1.05);
+    transition: 250ms;
+}   
+
+#contactUs span {
+    font-size: 20px;
+}
+
+#scrollToTopButton {
+    display: flex;
+    position: fixed;
+    background-color: var(--otherButtons_bg-color);
+    padding: 1%;
+    border-radius: 24px;
+    cursor: pointer;
+    right: 6%;
+    bottom: 14%;
+}
+
+#scrollToTopButton:hover {
+    background-color: var(--otherButtons_bg-color--hover);
+    transform: scale(1.05);
+    transition: 250ms;
+}   
+
+#scrollToTopButton span {
+    font-size: 20px;
+}
+
+
 @media (max-width: 1000px) {
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
 
     #changeThemeBtn {
         display: none;
