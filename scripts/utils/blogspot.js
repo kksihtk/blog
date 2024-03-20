@@ -49,20 +49,20 @@ blogSpot_articleRemove("art0")
 
 let blogList = {
     article1: {
-        articleTitle: "Тысяча лет без релиза",
-        articleDescription: "История того, как долго я делаю этот сайт",
+        articleTitle: "Тестовая новость 1",
+        articleDescription: "Тут должен быть текст статьи, краткое описание, или ещё чего для поднятие интереса прочитать статью.",
         articleLink: "./articles/article1.html", 
         articleId: "art1"
     },
     article2: {
-        articleTitle: "На новом дыхании",
-        articleDescription: "Увеличилась мотивэйшн для продолжения разработка данного сайта, я даже планирую php",
+        articleTitle: "Тестовая новость 2",
+        articleDescription: "Тут должен быть текст статьи, краткое описание, или ещё чего для поднятие интереса прочитать статью.",
         articleLink: "./articles/article2.html", 
         articleId: "art2"
     },
     article3: {
-        articleTitle: "Мне лень деплоить апдейт",
-        articleDescription: "Я почти не умею работать с гитхабом, чтобы бранч сам себя обновлял :<",
+        articleTitle: "Тестовая новость 3",
+        articleDescription: "Тут должен быть текст статьи, краткое описание, или ещё чего для поднятие интереса прочитать статью.",
         articleLink: "./articles/article3.html", 
         articleId: "art3"
     }

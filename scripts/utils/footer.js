@@ -2,7 +2,7 @@ function footerInfo() {
     document.getElementById('footer').innerHTML = "";
 
     let year = "2024";
-    let version = "v0.20 b170324.0000";
+    let version = "v0.20 b180324.1840";
     let footerCopyrightSpanText = document.createTextNode(` Copyright ${year}, ${version}`);
 
     let footerCopyrightSpan = document.createElement('span');
